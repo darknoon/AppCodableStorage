@@ -7,7 +7,9 @@ let package = Package(
     name: "AppCodableStorage",
     platforms: [
         .iOS(.v14),
-        .macOS(.v11)
+        .macOS(.v11),
+        .tvOS(.v13),
+        .watchOS(.v7)
     ],
     products: [
         .library(
